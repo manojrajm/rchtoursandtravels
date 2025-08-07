@@ -130,6 +130,7 @@
         position: relative;
         min-height: 450px;
     }
+
     
     #header-carousel .carousel-item img {
         position: absolute;
@@ -494,3 +495,11 @@
     padding-right: 0;
     border-right: none;
 }
+@media (max-width: 600px) {
+  .logo {
+    width: 60px !important;
+    height: 60px !important;
+    margin-left: 0 !important;
+  }
+}
+
